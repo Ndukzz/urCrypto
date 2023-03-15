@@ -1,0 +1,240 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "argentum";
+  src:url(../src/fonts/argentum/ArgentumSans-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "yukita";
+  src:url(../src/fonts/yukita/YukitaSans-Bold.otf) format("opentype");
+}
+@font-face {
+  font-family: "default";
+  src:url(../src/fonts/sophia/sophia-nubian.regular.ttf) format("truetype");
+}
+
+.default {
+  font-family: "default";
+}
+
+span {
+  color: #2752E7;
+}
+
+.text {
+  color: #626262;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.heading {
+  font-size: larger;
+  color: #111827;
+  font-family: "yukita";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+}
+
+/*  Start of Blue outlined button style */
+
+.border-button {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid rgb(61, 106, 255);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: rgb(61, 106, 255);
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.border-button:hover {
+  background: rgb(61, 106, 255);
+  box-shadow: 0 0 30px 2px rgba(0, 142, 236, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: white;
+}
+
+.border-button:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+.border-button::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.border-button:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+/*  End of Blue outlined button style */
+
+.disect {
+  width: 50%;
+  border-top: 1px solid #626262;
+  border-bottom: 1px solid #626262;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+/* For the content */
+
+.number {
+  color: #D0DBFF;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700; 
+  font-family: "yukita";
+}
+
+.title {
+  font-family: "yukita";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 135%;
+  color: #2C3131;
+}
+
+.content-text {
+  font-family: 'default';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #626262;
+}
+
+.border {
+  margin: 30px auto;
+  width: 75%;
+  height: 0px;
+  border: 1px solid #E3E3E3
+}
+
+.border2 {
+  margin: 30px auto;
+  width: 75%;
+  height: 0px;
+  border: 1px solid #E3E3E3
+}
+
+
+.example {
+  position: relative;
+  height: 342px;
+}
+
+.example .background {
+  width: 100%;
+  height: 342px;
+  position: absolute;
+  background: #2752E7;
+}
+
+.example .overlay {
+  position: absolute;
+  width: 100%;
+  height: 342px;
+}
+
+.example .content {
+  position: absolute;
+  font-family: "yukita";
+}
+
+@media (min-width: 640px) {
+  .stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+  }
+
+  .border {
+    margin: auto 30px;  
+    height: 100px;
+    width: 1px;
+    border: 1px solid #E3E3E3
+  }
+
+  .example {
+    margin: 0px auto;
+
+  }
+  
+  .example * {
+    border-radius: 1em;
+  }
+
+  .example .background {
+    width: 90%;
+    height: 342px;
+  }
+  
+  .example .overlay {
+    position: absolute;
+    width: 90%;
+    height: 342px;
+  }
+}
+
+@media (min-width: 400px) {
+  
+.heading {
+  font-size: 30px;
+}
+}
