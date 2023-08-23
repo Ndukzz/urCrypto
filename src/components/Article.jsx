@@ -13,7 +13,7 @@ const Article = (props) => {
           </div>
         </section>
         <section className='sm:flex sm:justify-between sm:flex-row-reverse sm:items-center sm:p-20'> 
-          <img className="w-full " src="./src/images/Right.png" />
+          <img className="w-full " src="../src/images/Right.png" />
           <div>
             <h2 className='heading py-8'>Lightning-Fast Crypto Trading</h2>
             <p className="content-text">The Exchange supports USD, EUR, and GBP. Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly. </p>
