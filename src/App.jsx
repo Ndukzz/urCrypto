@@ -13,7 +13,7 @@ function App() {
       {
         title: "Sign Up",
         content: "Buy Bitcoin or Ethereum, then securely store it in your wallet or send it on easily to friend.",
-        image: "../src/images/Frame01.png"
+        image: "../../src/images/Frame01.png"
       }, 
       {
         title: "Fund",
