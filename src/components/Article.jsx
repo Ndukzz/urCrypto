@@ -6,21 +6,21 @@ const Article = (props) => {
     <>
       <div className='m-20 text-center sm:text-left'>
         <section className='sm:flex sm:justify-between sm:items-center sm:p-20'> 
-          <img className="w-full" src="./src/images/Left.png" />
+          <img className="w-full" src="../images/Left.png" />
           <div>
             <h2 className='heading py-8'>Create Portfolio Today</h2>
             <p className="content-text">Buy and sell popular digital currencies, keep track of them in the one place. Has a variety of features that make it the best place to start trading  </p>
           </div>
         </section>
         <section className='sm:flex sm:justify-between sm:flex-row-reverse sm:items-center sm:p-20'> 
-          <img className="w-full " src="../src/images/Right.png" />
+          <img className="w-full " src="../images/Right.png" />
           <div>
             <h2 className='heading py-8'>Lightning-Fast Crypto Trading</h2>
             <p className="content-text">The Exchange supports USD, EUR, and GBP. Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly. </p>
           </div>
         </section>
         <section className='sm:flex sm:justify-between sm:items-center sm:p-20'> 
-          <img className="w-full" src="./src/images/Frame04.png" />
+          <img className="w-full" src="../images/Frame04.png" />
           <div>
             <h2 className='heading py-8'>Security From Day One</h2>
             <p className="content-text">Safety, security and compliance. Buy and sell popular digital currencies, keep track of them in the one place.</p>
