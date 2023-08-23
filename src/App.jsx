@@ -13,17 +13,17 @@ function App() {
       {
         title: "Sign Up",
         content: "Buy Bitcoin or Ethereum, then securely store it in your wallet or send it on easily to friend.",
-        image: "./src/images/Frame01.png"
+        image: "../src/images/Frame01.png"
       }, 
       {
         title: "Fund",
         content: "Choose you preferred payment method such as bank transfer or credit card to top up your wallet.",
-        image: "./src/images/Frame02.png"
+        image: "../src/images/Frame02.png"
       }, 
       {
         title: "Buy Crypto",
         content: "Sign up for free wallet on web, IOS or Android and follow our easy process to set up your profile.",
-        image: "./src/images/Frame03.png"
+        image: "../src/images/Frame03.png"
       }
     ],
 
