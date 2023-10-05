@@ -6,21 +6,21 @@ const Article = (props) => {
     <>
       <div className='m-20 text-center sm:text-left'>
         <section className='sm:flex sm:justify-between sm:items-center sm:p-20'> 
-          <img className="w-full" src="../images/Left.png" />
+          <img className="w-full" src="./images/Left.png" />
           <div>
             <h2 className='heading py-8'>Create Portfolio Today</h2>
             <p className="content-text">Buy and sell popular digital currencies, keep track of them in the one place. Has a variety of features that make it the best place to start trading  </p>
           </div>
         </section>
         <section className='sm:flex sm:justify-between sm:flex-row-reverse sm:items-center sm:p-20'> 
-          <img className="w-full " src="../images/Right.png" />
+          <img className="w-full " src="./images/Right.png" />
           <div>
             <h2 className='heading py-8'>Lightning-Fast Crypto Trading</h2>
             <p className="content-text">The Exchange supports USD, EUR, and GBP. Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly. </p>
           </div>
         </section>
         <section className='sm:flex sm:justify-between sm:items-center sm:p-20'> 
-          <img className="w-full" src="../images/Frame04.png" />
+          <img className="w-full" src="./images/Frame04.png" />
           <div>
             <h2 className='heading py-8'>Security From Day One</h2>
             <p className="content-text">Safety, security and compliance. Buy and sell popular digital currencies, keep track of them in the one place.</p>
@@ -53,7 +53,7 @@ const Article = (props) => {
           <h4 className='heading text-center'>What people are saying</h4>
           <Card>
             <div>
-              <img className='float-left mx-5' src="./src/images/Ellipse.png" alt="" />
+              <img className='float-left mx-5' src="./images/Ellipse.png" alt="" />
               <h5 className="title">John Doe</h5>
               <div className="content-text opacity-50">CEO Motion Design Agency </div>
             </div>
@@ -68,7 +68,7 @@ const Article = (props) => {
       <div>
         <div className="example sm:flex sm:justify-center text-left">
           <div className='background'></div>
-          <img src="./src/images/Background.png" alt="damn" className="overlay" />
+          <img src="./images/Background.png" alt="damn" className="overlay" />
           <div className="content p-10 my-10 sm:w-3/5 text-center sm:text-left">
             <h2 className="text-4xl font-bold text-white ">Join a new Generation of Investors</h2>
             <button className="button bg-white text-black py-5 my-6 sm:w-40">Get Started</button>

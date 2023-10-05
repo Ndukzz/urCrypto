@@ -3,16 +3,16 @@ const Footer = () => {
     <div className='mx-10 my-16 sm:flex sm:w-full sm:mx-0'>
       <div className="sm:mx-10">
         <div className='footer-logo flex justify-center items-center'>
-          <img className="h-20 sm:h-10" src="./src/images/logo.png" alt="logo" />
+          <img className="h-20 sm:h-10" src="./images/logo.png" alt="logo" />
           <h1 className="default px-2 font-bold text-5xl sm:text-2xl"><span>ur</span>Crypto&#8226;</h1>
         </div>
         <p className="text-center opacity-80 font-medium text-2xl py-2 sm:text-sm">Take your crypto to the next level</p>
         <ul className="w-3/5 flex justify-around mx-auto sm:justify-around">
-          <li><img src="./src/images/facebook.png" alt="" /></li>
-          <li><img src="./src/images/twitter.png" alt="" /></li>
-          <li><img src="./src/images/instagram.png" alt="" /></li>
-          <li><img src="./src/images/linkedin.png" alt="" /></li>
-          <li><img src="./src/images/youtube.png" alt="" /></li>
+          <li><img src="./images/facebook.png" alt="" /></li>
+          <li><img src="./images/twitter.png" alt="" /></li>
+          <li><img src="./images/instagram.png" alt="" /></li>
+          <li><img src="./images/linkedin.png" alt="" /></li>
+          <li><img src="./images/youtube.png" alt="" /></li>
         </ul>
       </div>
 

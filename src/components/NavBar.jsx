@@ -12,7 +12,8 @@ const NavBar = () => {
     <nav>
       <div className='m-10 flex justify-between justify-items-center items-center h-9 text-base '>
         <div className="flex items-center text-xl font-bold">
-          <img className="h-10" src="./src/images/logo.png" alt="logo" />
+          {/* <img className="h-10" src="./src/images/logo.png" alt="logo" /> */}
+          <img className="h-10" src="./images/logo.png" alt="logo" />
           <h1 className="default px-2"><span>ur</span>Crypto&#8226;</h1>
         </div>
         <ul className={`hidden lg:flex justify-around w-2/5`}>
@@ -25,7 +26,7 @@ const NavBar = () => {
           <button className="px-5">Sign In</button>
           <button className='border-button'>Get Started</button>
         </div>
-        <img className="h-10 lg:hidden" onClick={toggleMenu} src="./src/images/menu.png" alt="menu" />
+        <img className="h-10 lg:hidden" onClick={toggleMenu} src="./images/menu.png" alt="menu" />
       </div>
       {menu &&
       <div className="flex justify-center flex-col items-center lg:hidden">

@@ -3,7 +3,7 @@ import React from 'react'
 const Content = () => {
   return (
     <section className='sm:flex sm:flex-row-reverse sm:py-10 sm:h-full'>
-      <img className='w-full ' src="./src/images/Frame5400.png" alt="some pics of phones" />
+      <img className='w-full ' src="./images/Frame5400.png" alt="some pics of phones" />
       <div>
         <section className='px-20'>
           <h2 className='heading text-center py-10 sm:text-left'>The Most Trusted Cryptocurrency Platform</h2>
